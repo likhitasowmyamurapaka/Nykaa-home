@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.topnav {
+  background: linear-gradient(to left, #15d2bc 0%, #15d2bc 45%, #f6f1e5 75%, #f6f1e5 100%);
+  width: 100vw;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 100px;
+}
+
+.topnav a:hover {
+  color: white;
+}
+
+.left {
+  padding-left: 90px;
+  padding-top: 10px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.left:hover {
+  color: white;
+}
+
+.one-right a {
+  text-decoration: none;
+  color: black;
+  margin-right: 30px;
+  padding: 5px;
+  font-size: 15px;
+  position: relative;
+  right: 60px;
+}
+
+
+#logo {
+  margin-left: 60px;
+  cursor: pointer;
+}
+
+.middle-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 120px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.nav-items a:hover {
+  color: #fc2779;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+}
+
+input[type="text"] {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 8px 12px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #ff1493;
+}
+
+.signin-btn {
+  background-color: #f4117f;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.signin-btn a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.signin-btn:hover {
+  background-color: #e80071;
+}
+
+.cart-icon {
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.down-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.down-items {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  padding: 15px;
+  margin-left: 200px;
+}
+
+.down-items a {
+  text-decoration: none;
+  color: #6e6d7b;
+  font-size: 14px;
+}
+
+.down-items a:hover {
+  color: #fc2779;
+}
