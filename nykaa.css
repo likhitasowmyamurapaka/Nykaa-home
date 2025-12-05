@@ -140,3 +140,18 @@ input[type="text"]:focus {
 .down-items a:hover {
   color: #fc2779;
 }
+
+.sale-banner {
+  background: linear-gradient(to right, #9cecdf, #f6f1e5);
+  padding: 2px 0;
+  color: #15d2bc;
+}
+
+.sale-banner b {
+  margin: 0 15px;
+}
+
+img {
+  display: block;
+}
+
