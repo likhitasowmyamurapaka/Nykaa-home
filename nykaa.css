@@ -7,7 +7,7 @@
 
 .topnav {
   background: linear-gradient(to left, #15d2bc 0%, #15d2bc 45%, #f6f1e5 75%, #f6f1e5 100%);
-  width: 100vw;
+  width: 100%;
   height: 45px;
   display: flex;
   justify-content: space-between;
@@ -155,3 +155,11 @@ img {
   display: block;
 }
 
+.photo {
+  display: flex;
+  flex-direction: row;
+  height: 250px;
+  width: 250px;
+  padding: 40px;
+  gap: 10%;
+}
