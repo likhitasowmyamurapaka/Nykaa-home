@@ -107,3 +107,35 @@ button[type="submit"]{
     background: #f3f3f3;       
     border-radius: 12px;  
 }
+
+.google-btn{
+  width:100%;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:12px;
+  padding:12px 14px;
+  border-radius:8px;
+  border:1px solid #e0e3e5;
+  background:#fff;
+  font-weight:600;
+  font-size:15px;
+  cursor:pointer;
+  margin-bottom:16px;
+  color:#6b7377;
+}
+
+.google-btn .g-icon svg{display:block}
+.google-btn .g-icon{display:inline-flex;align-items:center;transform:translateY(-1px)}
+
+
+.email-link{
+  display:block;
+  width:100%;
+  text-align:center;
+  margin-top:8px;
+  color:#6b7377;
+  text-decoration:none;
+  font-size:13px;
+}
+
