@@ -18,8 +18,8 @@
   background-color: white;
   position: relative;
   display: flex;
-  justify-content: center; /*Center horizontally*/
-  align-items: center; /*Center vertically*/
+  justify-content: center;
+  align-items: center;
   
 }
 
@@ -27,7 +27,7 @@
     width:90px;
     position:relative;
     bottom:63px;
-    /* position: sticky; */
+
 }
 
 .divs{
@@ -47,16 +47,13 @@
 .para{
     position:relative;
     bottom:50px;
-    /* font-size: 2px; */
     color:grey;
     font-size:16px;
-    /* padding:5px; */
     letter-spacing: 1px;
 }
 
 .mobile{
     border:1px solid grey;
-    /* box-shadow: 2px 3px 20px grey; */
     border-radius: 8px;
     padding:10px;
     background: #f3f4f5;
@@ -78,7 +75,6 @@ input[type="text"]:focus{
     position:relative;
     color:grey;
     left:40px;
-    /* font-weight:normal; */
     font-size:12px;
 }
 
@@ -88,8 +84,6 @@ button[type="submit"]{
 
 .btn{
     scale:2.3;
-    
-    /* color:grey; */
     padding:5px;
     border-radius: 5px;
     font-size:6px;
@@ -106,5 +100,4 @@ button[type="submit"]{
     font-weight: bold;
     text-decoration: none;
     font-family: Arial, sans-serif;
-
 }
